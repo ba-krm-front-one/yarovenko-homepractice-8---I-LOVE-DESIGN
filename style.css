@@ -19,13 +19,19 @@ header {
     width: 100%;
     height: 850px;
     background-color: #23232e;
+    position: inherit;
+
 }
 
 #fa-main-article {
-    margin-top: 0;
-    height: 1042px;
+    position: absolute;
+    z-index: -100;
+    height: 1158px;
+    margin-top: -116px;
     width: 100%;
-     background-image: url("img/back_fon.png");
+    background-image: url("img/back_fon.svg");
+    padding-top: 116px;
+
 
 }
 
@@ -168,5 +174,5 @@ a img:nth-child(1):hover {
     background-color: rgba(255, 140, 26, 0.62);
     transition-property: background-color;
     transition-duration: 0.5s;
-    border-radius: 43px;
+    border-radius: 50%;
 }
